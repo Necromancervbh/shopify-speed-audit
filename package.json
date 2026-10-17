@@ -1,0 +1,35 @@
+{
+  "name": "shopify-speed-audit",
+  "version": "1.0.0",
+  "description": "Checks a Shopify storefront page for the usual speed problems (render-blocking scripts, app bloat, lazy hero images, layout shift, fonts) and tells you what to fix.",
+  "type": "module",
+  "bin": {
+    "shopify-speed-audit": "bin/shopify-speed-audit.js"
+  },
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "keywords": [
+    "shopify",
+    "performance",
+    "page-speed",
+    "core-web-vitals",
+    "audit",
+    "cli"
+  ],
+  "author": "Vaibhav Shukla",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Necromancervbh/shopify-speed-audit.git"
+  }
+}
